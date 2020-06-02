@@ -20,6 +20,23 @@ nav {
 }
 
 nav img {
-  height: 100px;
+  margin-top: 15px;
+}
+
+.logo {
   width: 100px;
+  height: 60px;
+}
+
+.camera,
+.magnifier,
+.grid,
+.bell, .profile {
+  width: 30px;
+  height: 30px;
+}
+
+.magnifier{
+    border: solid 1px #666;
+    border-radius: 5px;
 }
