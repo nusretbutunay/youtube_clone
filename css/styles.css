@@ -27,6 +27,7 @@ nav {
   display: flex;
   border: 1px solid #666;
   border-radius: 5px;
+  margin-left: 250px;
 }
 
 .search-bar {
@@ -44,6 +45,13 @@ nav {
   border-right: 1px solid #666;
   border-bottom: 1px solid #666;
 }
+.btn-group{
+  margin-left: 250px;
+}
+.btn-group img{
+  width: 30px;
+  height: 30px;
+}
 
 .camera,
 .grid,
@@ -51,4 +59,5 @@ nav {
 .profile {
   width: 30px;
   height: 30px;
+  padding-right: 20px;
 }
