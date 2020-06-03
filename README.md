@@ -2,7 +2,7 @@
 
 > This project is the first project of the program for embedding images and videos and creating a clone of Youtube video player page..
 
-![screenshot](./img/screenshot.png)
+![](/img/screenshot.PNG)
 
 ## Built With
 
