@@ -2,8 +2,7 @@
 
 > This project is the first project of the program for embedding images and videos and creating a clone of Youtube video player page..
 
-![screenshot](img/screenshot.png)
-
+![screenshot](/img/screenshot.png)
 
 ## Built With
 
@@ -14,8 +13,8 @@
 
 will be done after review approved.
 
-
 ## Getting Started
+
 To get a local copy of the repository please run the following commands on your terminal:
 
 $ cd <folder>
@@ -27,11 +26,9 @@ $ git clone https://github.com/nusretbutunay/youtube_clone.git
 
 - Github: [@kartheekwd](https://github.com/kartheekwd)
 
-
 👤 Nusret Butunay
 
 - Github: [@nusretbutunay](https://github.com/nusretbutunay)
-
 
 ## 🤝 Contributing
 
