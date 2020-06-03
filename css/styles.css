@@ -75,9 +75,11 @@ main{
   margin-top: 20px;
 
 }
-
+.video{
+  width: 60vw;
+}
 iframe {
-  width: 650px;
+  width: 60vw;
   height: 400px;
 }
 
@@ -117,4 +119,32 @@ iframe {
 
 .channel-branding h3 {
   margin-left: 10px;
+}
+/* .suggested {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+} */
+/* .suggested h6{
+  display: block;
+  padding: 10px;
+}  */
+.suggested-videos{
+  width: 30vw;
+}
+.suggested{
+  display: grid;
+grid-template-areas: "image title"
+                      "image views";
+margin: 0px 30px 10px 30px;
+
+
+}
+.suggested img{
+  grid-area: image;
+  
+}
+.suggested h4 h6{
+  margin-right: 15px;
 }
