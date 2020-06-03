@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+# Youtube Clone
 
-You can use the [editor on GitHub](https://github.com/nusretbutunay/youtube_clone/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+> This project is the first project of the program for embedding images and videos and creating a clone of Youtube video player page..
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![screenshot](./img/screenshot.png)
 
-### Markdown
+## Built With
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- HTML5
+- CSS3
 
-```markdown
-Syntax highlighted code block
+## Live Demo
 
-# Header 1
-## Header 2
-### Header 3
+will be done after review approved.
 
-- Bulleted
-- List
+## Getting Started
 
-1. Numbered
-2. List
+To get a local copy of the repository please run the following commands on your terminal:
 
-**Bold** and _Italic_ and `Code` text
+$ cd <folder>
+$ git clone https://github.com/nusretbutunay/youtube_clone.git
 
-[Link](url) and ![Image](src)
-```
+## Authors
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+👤 KartheeK Paturu
 
-### Jekyll Themes
+- Github: [@kartheekwd](https://github.com/kartheekwd)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nusretbutunay/youtube_clone/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+👤 Nusret Butunay
 
-### Support or Contact
+- Github: [@nusretbutunay](https://github.com/nusretbutunay)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+Project originally taken from The Odin Project
+Project inspired by Microverse Program
