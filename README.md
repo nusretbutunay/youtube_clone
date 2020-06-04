@@ -2,7 +2,7 @@
 
 > This project is the first project of the program for embedding images and videos and creating a clone of Youtube video player page..
 
-![screenshot](./img/screenshot.png)
+![](/img/screenshot.PNG)
 
 ## Built With
 
@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-will be done after review approved.
+[Live Demo Link](https://rawcdn.githack.com/nusretbutunay/youtube_clone/475a934bf3437efccf30b47823cefeda9c2f842a/index.html)
 
 ## Getting Started
 
@@ -25,10 +25,14 @@ $ git clone https://github.com/nusretbutunay/youtube_clone.git
 👤 KartheeK Paturu
 
 - Github: [@kartheekwd](https://github.com/kartheekwd)
+- Linkedin: [@kartheekwd](https://www.linkedin.com/in/kartheekwd)
+- Twitter: [@KartheekWD](https://twitter.com/KartheekWD)
 
 👤 Nusret Butunay
 
 - Github: [@nusretbutunay](https://github.com/nusretbutunay)
+- Linkedin: [@nusretbutunay](https://www.linkedin.com/in/nusretbutunay)
+- Twitter: [@nusretbutunay](https://twitter.com/nusretbutunay)
 
 ## 🤝 Contributing
 
