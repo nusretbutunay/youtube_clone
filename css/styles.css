@@ -1,4 +1,4 @@
-/*Global setup*/
+/* Global setup */
 *,
 *::before,
 *::after {
@@ -11,7 +11,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Navbar styling*/
+/* Navbar styling */
 nav {
   background-color: #fffffe;
   position: sticky;
@@ -40,7 +40,7 @@ nav {
   padding-left: 20px;
 }
 
-.magnifier{
+.magnifier {
   cursor: pointer;
   height: 40px;
   width: 40px;
@@ -49,10 +49,12 @@ nav {
   border-right: 1px solid #666;
   border-bottom: 1px solid #666;
 }
-.btn-group{
+
+.btn-group {
   margin-left: 250px;
 }
-.btn-group img{
+
+.btn-group img {
   width: 30px;
   height: 30px;
 }
@@ -61,19 +63,19 @@ nav {
 .grid,
 .bell,
 .profile {
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
-/*Main Section styling*/
-main{
+/* Main Section styling */
+main {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 30px 60px 0 60px;
 }
 
-/*video player styling*/
-.video{
+/* video player styling */
+.video {
   width: 60vw;
 }
 
@@ -86,10 +88,11 @@ iframe {
   margin-top: 15px;
 }
 
-.video-description h3{
+.video-description h3 {
   font-size: 1.5rem;
   margin-bottom: 30px;
 }
+
 .channel-engagement {
   display: flex;
   align-items: center;
@@ -97,13 +100,13 @@ iframe {
   margin-top: 10px;
 }
 
-.engagement-group{
+.engagement-group {
   display: flex;
   align-items: center;
   font-size: 1.6rem;
 }
 
-.engagement-group h5{
+.engagement-group h5 {
   margin-left: 10px;
 }
 
@@ -123,7 +126,7 @@ iframe {
   margin-left: 10px;
 }
 
-.subscribe{
+.subscribe {
   cursor: pointer;
   width: 130px;
   height: 40px;
@@ -131,26 +134,24 @@ iframe {
   border-radius: 5px;
 }
 
-.subscribe:hover{
-  opacity: .6;
+.subscribe:hover {
+  opacity: 0.6;
 }
 
-/*suggested videos styling*/
-.suggested-videos{
+/* suggested videos styling */
+.suggested-videos {
   width: 30vw;
 }
 
-.suggested{
+.suggested {
   display: grid;
-  grid-template-areas: "image title"
-                      "image views";
-  margin: 0px 30px 10px 30px;
+  grid-template-areas:
+    "image title"
+    "image views";
+  margin: 0 30px 10px 30px;
   align-items: center;
- 
 }
 
-.suggested img{
-  grid-area: image;  
+.suggested img {
+  grid-area: image;
 }
-
-
