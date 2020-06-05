@@ -1,0 +1,162 @@
+/* Global setup */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar styling */
+
+nav,
+.search,
+.btn-group {
+  display: flex;
+}
+
+nav {
+  background-color: #fffffe;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 40px 0 30px 30px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.search {
+  border: 1px solid #666;
+  border-radius: 5px;
+}
+
+.search-bar {
+  width: 25vw;
+  height: 50px;
+  padding-left: 20px;
+}
+
+.magnifier img {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+}
+
+.btn-group img {
+  width: 30px;
+  height: 30px;
+}
+
+.camera,
+.grid,
+.bell,
+.profile {
+  margin-right: 20px;
+}
+
+/* Main Section styling */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 60px 0 60px;
+}
+
+/* video player styling */
+.video {
+  width: 60vw;
+}
+
+iframe {
+  width: 60vw;
+  height: 400px;
+  border: none;
+}
+
+.video-description {
+  margin-top: 15px;
+}
+
+.video-description h3 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.channel-engagement {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.engagement-group {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.engagement-group h5 {
+  margin-left: 10px;
+}
+
+.share-group {
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+}
+
+.youtube-channel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.channel-branding {
+  display: flex;
+  align-items: center;
+}
+
+.channel-branding h3 {
+  margin-left: 10px;
+}
+
+.subscribe {
+  cursor: pointer;
+  width: 130px;
+  height: 40px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.subscribe:hover {
+  opacity: 0.6;
+}
+
+/* suggested videos styling */
+.suggested-videos {
+  width: 30vw;
+}
+
+.suggested {
+  display: grid;
+  grid-template-areas:
+    "image title"
+    "image views";
+  margin: 0 30px 10px 30px;
+  align-items: center;
+}
+
+.suggested img {
+  grid-area: image;
+}

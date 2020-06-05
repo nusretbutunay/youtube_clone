@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e495230f5d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Youtube-Clone</title>
+  </head>
+  <body>
+    <nav>
+      <img src="img/logo.jpg" alt="youtube-logo" class="logo" />
+      <div class="search">
+        <input type="search" placeholder="search" class="search-bar" />
+        <button class="magnifier"><img src="img/search.png" alt="magnifying glass" /></button>
+      </div>
+      <div class="btn-group">
+        <a class="camera" href="#"
+          ><img src="img/ar-camera.png" alt="Camera">
+        </a>
+        <a class="grid" href=""
+          ><img src="img/icons8-grid-26.png" alt="grid" />
+        </a>
+        <a class="bell" href=""
+          ><img src="img/icons8-bell-24.png" alt="ringingbell" />
+        </a>
+        <a class="profile" href=""
+          ><img src="img/icons8-filled-circle-100.png" alt="Profileimage" />
+        </a>
+      </div>
+    </nav>
+    <main>
+      <section class="video">
+        <iframe
+          src="https://www.youtube.com/embed/Uyei2iDA4Hs"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div class="video-description">
+          <h3>
+            Full Stack React & Django [1] - Basic REST API
+          </h3>
+          <div class="channel-engagement">
+            <h5>229,804 views</h5>
+            <div class="engagement-group like-group">
+              <i class="fas fa-thumbs-up"></i>
+              <h5>3.9K</h5>
+            </div>
+            <div class="engagement-group dislike-group">
+              <i class="far fa-thumbs-down"></i>
+              <h5>39</h5>
+            </div>
+            <button class="engagement-group share-group">
+              <i class="fas fa-share"></i>
+              SHARE
+            </button>
+            <div class="engagement-group save-group">
+              <i class="far fa-save"></i>
+              <h5>SAVE</h5>
+            </div>
+          </div>
+        </div>
+        <div class="youtube-channel">
+          <div class="channel-branding">
+            <img src="img/channel_logo.jpg" alt="channel-logo" />
+            <h3>KartheeK Media</h3>
+          </div>
+          <button class="subscribe" type="button">SUBSCRIBE</button>
+        </div>
+      </section>
+      <section class="suggested-videos">
+        <div class="suggested">
+          <img src="img/react.PNG" alt="suggested-1" />
+          <h4>Suggested video-1</h4>
+          <h6>34 views</h6>
+        </div>
+        <div class="suggested">
+          <img src="img/launch.PNG" alt="suggested-2" />
+          <h4>Suggested video-2</h4>
+          <h6>65 views</h6>
+        </div>
+        <div class="suggested">
+          <img src="img/editors.PNG" alt="suggested-3" />
+          <h4>Suggested video-3</h4>
+          <h6>2324 views</h6>
+        </div>
+        <div class="suggested">
+          <img src="img/developer.PNG" alt="suggested-4" />
+          <h4>Suggested video-4</h4>
+          <h6>4523 views</h6>
+        </div>
+        <div class="suggested">
+          <img src="img/php.PNG" alt="suggested-5" />
+          <h4>Suggested video-5</h4>
+          <h6>32423523 views</h6>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
